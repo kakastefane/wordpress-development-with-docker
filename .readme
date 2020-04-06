@@ -1,0 +1,8 @@
+Para rodar o wordpress no docker a primeira vez
+sudo docker-compose -f "docker-compose.yml" up -d --build
+
+Para parar
+sudo docker-compose stop
+
+E para Iniciar
+sudo docker-compose start
